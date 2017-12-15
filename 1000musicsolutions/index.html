@@ -3,6 +3,7 @@
   <head>
     <title>1000 Music Solutions</title>
     <meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
@@ -20,6 +21,17 @@
     		}
 		} 
 	</script>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111309177-1"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'UA-111309177-1');
+	</script>
+
 	<!--
 	                                                                                            .-/oshmN
                                                                                    `-:+oydJpJpJpJpJp
@@ -81,16 +93,28 @@ sJpJpJpJpJpJpJpJpJpJpJpJpJpJpd/
   </head>
   <body>
     <div class="scale"><!-- Since this is music themed I thought I'd have fun and name my classes after musical elements.  This is the grid-->
-      <div class= "note a"><div class="text heading"><h1>1000 Music Solutions</h1></div><img class="banner" src="images/rainbow.jpg"></div>
-      <div class= "note e"><a class="twitter-timeline" data-height="90%" data-theme="dark" href="https://twitter.com/jpbrabant?ref_src=twsrc%5Etfw">Tweets by jpbrabant</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
-      <div class= "note b"><div class="text"><span>Sharing the goodness of music</span> <span>through <span class="crescendo">Performance</span> and <a target="_blank" style="text-decoration:none; color:white;" href="http://www.ascap.com/eventsawards/events/fsw/la/2011/profiles/john-paul-brabant.aspx"><span class="crescendo">Composition</span></a></span></div></div>
-      <div class= "note c"><a href="youtube.com"><div class="live-performances"><h3>Live Performances</h3></div><video autoplay loop muted class="bgvideo"><source src="media/JPHarp1.mp4" type="video/mp4">Your browser does not support the video tag.</video></a></div>
-	  <div class= "note g"><iframe class="soundcloud" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/7610294&amp;color=%23121410&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe></div>
-      <div class= "note d" onclick="myFunction()"><div id="bio-description" >John Paul Brabant holds degrees in Musical Studies and Composition from the Crane School at SUNY Potsdam and NYU respectively.  After graduation John Paul spent time in the LA and New York scenes until a 2012 appointment as Visiting Professor of Music at the Crane School.  While there he taught coursework in music theory, aural skills, and composition. He currently is completing PhD work at The University of Hawai‘i while gigging on the harp.</div><div id="Bio">Bio</div><img id="banner" src="images/BlueHarp.png">
+      <div class= "note a"><div class="text heading"><h1>1000 Music Solutions</h1></div><img class="banner" alt="Picture of Rainbow and Canoes" src="images/rainbow.jpg"></div>
+      <div class= "note b"><div class="text"><span>Sharing the goodness of music</span> <span>through <span class="crescendo">Performance</span> and <span class="crescendo">Composition</span></span></div></div>
+      <div class= "note e"><a class="twitter-timeline" data-height="90%" data-theme="light" href="https://twitter.com/jpbrabant?ref_src=twsrc%5Etfw" data-tweet-limit="3">Tweets by jpbrabant</a> </div>
+      
+      <div class= "note c">
+	  	<div class="chromatic-scale"> 
+			<div class="Links"><a class="live-performances" href="https://youtu.be/RQCJ7_2hJk8?t=23"><h3>Live Performances</h3></a></div>
+			<div class="Links"><a class="live-performances" target="_blank" href="http://www.ascap.com/eventsawards/events/fsw/la/2011/profiles/john-paul-brabant.aspx">
+				<h3>Listen to Compositions</h3></a></div>
+		</div>
+		
+	  	<video autoplay loop muted class="bgvideo"><source src="images/JPHarp1.mp4" type="video/mp4">Your browser does not support the video tag.</video></div>
+	  <div class= "note g">
+	  	<!--<iframe class="soundcloud" height="450" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/7610294&amp;color=%23121410&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>-->
+		<div class="contact-me">Contact</div><img class="banner" alt="John Paul on harp playing during yoga" src="images/yoga.png">
 	  </div>
-	  <div class= "note f"><div class="text">Copyright &copy; 2017 <a style="color:white;" href="mailto:johnpaulbrabant@gmail.com">John-Paul Brabant</a>, All rights reserved.</div></div>
-	  
-
+      <div class= "note d" onclick="myFunction()">
+	  	<div id="bio-description">John Paul Brabant holds degrees in Musical Studies and Composition from the Crane School at SUNY Potsdam and NYU respectively.  After graduation John Paul spent time in the LA and New York scenes until a 2012 appointment as Visiting Professor of Music at the Crane School.  While there he taught coursework in music theory, aural skills, and composition. He currently is completing PhD work at The University of Hawai‘i while gigging on the harp.</div>
+	  	<div id="Bio">About</div><img id="banner" alt="John Paul and his harp" src="images/BlueHarp.png">
+	  </div>
+      <div class= "note f"><div class="text">Copyright &copy; 2017 <a style="color:white;" href="mailto:johnpaulbrabant@gmail.com">John-Paul Brabant</a>, All rights reserved.</div></div>
+      
     </div> <!-- grid end -->
 
   </body>
